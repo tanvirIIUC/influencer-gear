@@ -4,7 +4,8 @@
 /* body */
 body{
      margin: 0;
-    
+     width: 100%;
+    background-color: #787885;
     font-family: 'Poppins', sans-serif;
 }
 /* navigation bar*/
@@ -213,6 +214,27 @@ footer a{
     /* height: 139px; */
 }
 
-.footer-web-logo{
+/* responsibe */
+@media screen and (max-width:767px) {
+    .containar{
+        width: 100%;
+    }
+    .start-influncer{
+        /* background-color: #E02C6D; */
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .websites{
+        height: 100%;
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
 
+    }
+    .collections{
+        /* height: 100%;
+        width: 100%; */
+        grid-template-columns: repeat(1,1fr);
+    }
 }
